@@ -48,7 +48,7 @@ p {
 }
 
 .main-page-wrapper {
-    background:  rgb(23, 25, 28, 0,5), url(/quiz-box/img/back1.png) center top no-repeat, url(/quiz-box/img/back2.png) center bottom 200px no-repeat;
+    background:  rgb(23, 25, 28, 0,5) center no-repeat, url(/quiz-box/img/back1.png) center top no-repeat, url(/quiz-box/img/back2.png) center bottom 200px no-repeat;
 }
 
 body{
