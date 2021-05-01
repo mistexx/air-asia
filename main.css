@@ -199,11 +199,10 @@ margin-bottom: 4px;
 .offers__item {
     min-height: 449px;
     background: #fff;
-    border-radius: 4px;
+    border-radius: 5px 5px 5px 5px;
     display: inline-block;
     margin-right: 15px;
     width: 362px;
-    border-radius: 5px 5px 5px 5px;
 }
 
 .offers__item:last-child {
