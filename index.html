@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Box</title>
-    <link rel="stylesheet" href="/quiz-box/css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
    <div class="wrapper">
+   <div class="container">
        <div class="wrapper__content">
            <header class="header">
-               <div class="container header__container">
+               <div class="container">
                    <a href="#" alt="" class="logo">
-                       <img src="/quiz-box/img/logo.png" alt="logo" class="logo__img">
+                       <img src="./img/logo.png" alt="logo" class="logo__img">
                    </a>
                    <nav class="menu">
                        <ul class="menu__list">
@@ -30,19 +33,22 @@
            </header>
            <main class="maincontent">
                <section class="hello">
-                   <div class="container">
+                <div class="container">
+                    <div class="hello__text--section">
                          <h1 class="hello__title">Интеллектуальный вечер для шумной компании</h1>
                          <div class="hello__text">Игры на любой вкус</div>
                          <a href="#" class="button">Подробнее</a>
-                   </div>
-               </section>
+                    </div>
+                </div>
                <section class="offers">
                    <div class="container">
                        <h2 class="title title--fire">Новинки недели</h2>
                        <ul class="offers__list">
                            <li class="offers__item">
+                               <div class="offers__header">
+                                   <img src="/quiz-box/img/music-quiz.png" alt="new items of the week" class="offers__features-icon">
+                               </div>
                                <div class="offers__content">
-                                  <img src="/quiz-box/img/music-quiz.png" alt="new items of the week" class="offers__features-icon"> 
                                    <h5 class="offers__title">Музыкальная игра</h5>
                                    <div class="offers__features">
                                        <div class="offers__features">
@@ -59,8 +65,10 @@
                                </div>
                            </li>
                            <li class="offers__item">
-                              <div class="offers__content">
-                                  <img src="/quiz-box/img/back90.png" alt="new items of the week" class="offers__features-icon">
+                            <div class="offers__header">
+                               <img src="/quiz-box/img/back90.png" alt="new items of the week" class="offers__features-icon">
+                            </div>
+                              <div class="offers__content">   
                                   <h5 class="offers__title">Назад в 90-е</h5>
                                   <div class="offers__features">
                                       <div class="offers__features">
@@ -77,8 +85,11 @@
                               </div>
                            </li>
                            <li class="offers__item">
+                            <div class="offers__header">
+                                <img src="/quiz-box/img/quiz-it.png" alt="new items of the week" class="offers__features-icon">
+                            </div>
                               <div class="offers__content">
-                                  <img src="/quiz-box/img/quiz-it.png" alt="new items of the week" class="offers__features-icon">
+                                  
                                   <h5 class="offers__title">IT-викторина</h5>
                                   <div class="offers__features">
                                       <div class="offers__features">
@@ -149,6 +160,7 @@
                </section>
            </main>
        </div>
+    </div>
        <footer class="footer">
            <div class="container container--footer">
                <a href="" class="logo">
