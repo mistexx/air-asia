@@ -203,6 +203,7 @@ margin-bottom: 4px;
     display: inline-block;
     margin-right: 15px;
     width: 362px;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .offers__item:last-child {
