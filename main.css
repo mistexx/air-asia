@@ -47,6 +47,10 @@ p {
    box-sizing: border-box; 
 }
 
+.main-page-wrapper {
+    background:  url(/quiz-box/img/back1.png) center top no-repeat, url(/quiz-box/img/back2.png) center bottom 200px no-repeat;
+}
+
 body{
     font-family: "Open Sans", Helvetica, sans-serif;
     color: #FFFFFF;
