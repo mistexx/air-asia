@@ -199,7 +199,7 @@ margin-bottom: 4px;
 .offers__item {
     min-height: 449px;
     background: #fff;
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 5px;
     display: inline-block;
     margin-right: 15px;
     width: 362px;
@@ -212,7 +212,7 @@ margin-bottom: 4px;
 .offers__header {
     min-height: 144px;
     margin-bottom: 8px;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 5px;
 }
 
 .offers__content {
