@@ -345,7 +345,7 @@ margin-bottom: 4px;
     display: block;
     width: 450px;
     height: 502px;
-    background: url("/img/photo.png") center center / cover no-repeat;
+    background: url("/quiz-box/img/photo.png") center center / cover no-repeat;
  }
 
  .about__features {
@@ -407,7 +407,7 @@ margin-bottom: 4px;
      margin-right: 10px;
  }
 
- ..socialnetworks__items:last-child {
+ .socialnetworks__items:last-child {
      margin-right: 0;
  }
 
@@ -418,33 +418,33 @@ margin-bottom: 4px;
  }
 
  .socialnetworks__items--tg .socialnetworks__link {
-     background-image: url(/img/socialnetworks/tg.png);
+     background-image: url(/quiz-box/img/socialnetworks/tg.png);
  }
 
  .socialnetworks__items--tg .socialnetworks__link:hover {
-     background-image: url(/img/socialnetworks/tg-1.png);
+     background-image: url(/quiz-box/img/socialnetworks/tg-1.png);
  }
 
  .socialnetworks__items--vk .socialnetworks__link {
-    background-image: url(/img/socialnetworks/vk.png);
+    background-image: url(/quiz-box/img/socialnetworks/vk.png);
 }
 
 .socialnetworks__items--vk .socialnetworks__link:hover {
-    background-image: url(/img/socialnetworks/vk-1.png);
+    background-image: url(/quiz-box/img/socialnetworks/vk-1.png);
 }
 .socialnetworks__items--fb .socialnetworks__link {
-    background-image: url(/img/socialnetworks/fb.png);
+    background-image: url(/quiz-box/img/socialnetworks/fb.png);
 }
 
 .socialnetworks__items--fb .socialnetworks__link:hover {
-    background-image: url(/img/socialnetworks/fb-1.png);
+    background-image: url(/quiz-box/img/socialnetworks/fb-1.png);
 }
 .socialnetworks__items--in .socialnetworks__link {
-    background-image: url(/img/socialnetworks/in.png);
+    background-image: url(/quiz-box/img/socialnetworks/in.png);
 }
 
 .socialnetworks__items--in .socialnetworks__link:hover {
-    background-image: url(/img/socialnetworks/in-1.png);
+    background-image: url(/quiz-box/img/socialnetworks/in-1.png);
 }
 
 .container--footer {
