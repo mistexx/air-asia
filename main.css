@@ -359,7 +359,8 @@ margin-bottom: 4px;
     width: 785px;
     height: 455px;
     vertical-align: top;
-    margin-left: -142px;
+    margin-left: 142px;
+    margin-top: -200px;
  }
 
  .title--about {
