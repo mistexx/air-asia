@@ -198,7 +198,8 @@ margin-bottom: 4px;
     background: #FFFFFF;
     color: #8F00FF;
     border: 1px solid #8F00FF;
-    margin-bottom: 10px;
+    margin-bottom: -5px;
+    padding: 17px 29px;
 }
 
 .button--light:hover {
@@ -210,12 +211,10 @@ margin-bottom: 4px;
     background: transparent;
     border-radius: 5px;
     border: 1px solid #fff;
-    margin-bottom: 5px;
-    border: 1px solid #FFFFFF;
 }
 
 .offers {
-    margin-bottom: 127px;
+    margin-bottom: 122px;
 }
 
 .title--fire {
@@ -229,8 +228,8 @@ margin-bottom: 4px;
     background: #fff;
     border-radius: 5px;
     display: inline-block;
-    margin-right: 15px;
-    width: 362px;
+    margin-right: 22px;
+    width: 361px;
     overflow: hidden;
 }
 
@@ -240,7 +239,6 @@ margin-bottom: 4px;
 
 .offers__header {
     height: 144px;
-    margin-bottom: 8px;
 }
 
 .offers__content {
@@ -274,7 +272,7 @@ margin-bottom: 4px;
 .offers__text {
     font-size: 14px;
     color: #303030;
-    margin-bottom: 24px;
+    margin-bottom: 26px;
 }
 
 .offers__features-icon {
@@ -304,7 +302,7 @@ margin-bottom: 4px;
 }
 
 .pastevents__items {
-    width: 560px;
+    width: 562px;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -352,7 +350,7 @@ margin-bottom: 4px;
 
 .pagination {
     text-align: center;
-    margin-bottom: 130px;
+    margin-bottom: 136px;
 }
 
 .pagination__info, .pagination__list {
@@ -387,6 +385,7 @@ margin-bottom: 4px;
     position: relative;
     padding-top: 97px;
     margin-bottom: 53px;
+    margin-right: 6px;
 }
 
  .about:before {
@@ -420,7 +419,7 @@ margin-bottom: 4px;
  .about__text {
      font-size: 16px;
      line-height: 1.68;
-     margin-bottom: 43px;
+     margin-bottom: 46px;
  }
 
  .about__text p {
@@ -436,15 +435,17 @@ margin-bottom: 4px;
     position: relative;
   }
 
+  .logo__img--footer {
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 0; 
+}
+
  .menu__footer {
     position: absolute;
-    top: 40px;
-    left: 230px; 
- }
-
- .contacts__inf--footer {
-     font-size: 11px;
-     color: #9A9A9A;
+    top: 57px;
+    left: 289px;
  }
 
  .socialnetworks__link {
@@ -467,8 +468,8 @@ margin-bottom: 4px;
 
  .socialnetworks {
      position: absolute;
-    top:33px;
-    right: 280px;
+     top: 49px;
+     right: 258px;
  }
 
  .socialnetworks__items--tg .socialnetworks__link {
@@ -499,6 +500,17 @@ margin-bottom: 4px;
 
 .socialnetworks__items--in .socialnetworks__link:hover {
     background-image: url(img/socialnetworks/in-1.png);
+}
+
+.contacts--footer {
+    font-style: normal;
+    top: 40px;
+    text-align: right;
+}
+
+.contacts__inf--footer {
+    font-size: 11px;
+    color: #9A9A9A;
 }
 
 .container--footer {
