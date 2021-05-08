@@ -83,7 +83,7 @@ body{
     left: 0;
     width: 100%;
     height: 1000px;
-    background: url(/img/back1.png) center center / cover no-repeat;
+    background: url(../img/back1.png) center center / cover no-repeat;
     filter: grayscale(1);
     z-index: -1;
 }
@@ -95,7 +95,7 @@ body{
     left: 0;
     width: 100%;
     height: 1018px;
-    background: url(/img/back2.png) center center / cover no-repeat;
+    background: url(../img/back2.png) center center / cover no-repeat;
     filter: grayscale(1);
     z-index: -1;
 }
