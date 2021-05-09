@@ -1,0 +1,34 @@
+.contacts {
+    font-style: normal;
+    top: 27px;
+    right: 0;
+    text-align: right;
+    position: absolute;
+}
+
+.contacts__phone {
+text-decoration: none;
+font-size: 26px;
+margin-bottom: 4px;
+line-height: 35,41px;
+}
+
+.contacts__inf {
+    position: relative;
+    top: -6px;
+    font-size: 13px;
+    line-height: 20px;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.contacts--footer {
+    font-style: normal;
+    top: 40px;
+    text-align: right;
+}
+
+.contacts__inf--footer {
+    font-size: 11px;
+    color: #9A9A9A;
+}
