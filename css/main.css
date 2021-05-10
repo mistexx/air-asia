@@ -4,7 +4,7 @@
 
 @import url(blocks/header.css);
 @import url(blocks/logo.css);
-@import url(blocks/menu.css);
+@import url(blocks/nav.css);
 @import url(blocks/contacts.css);
 @import url(blocks/hello.css);
 @import url(blocks/offers.css);
@@ -14,3 +14,98 @@
 @import url(blocks/button.css);
 @import url(blocks/footer.css);
 @import url(blocks/socialnetworks.css);
+
+
+
+/* games page*/
+
+.top-line {
+    min-height: 410px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 19px;
+    background: url(../../img/back1.png) top 55% center / cover no-repeat;
+}
+
+.top-line__container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page-title {
+    font-size: 72px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.breadcrubs__list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+    padding-left: 2px;
+}
+
+.breadcrumbs__item:first-child {
+    padding-left: 0px;
+}
+
+.breadcrubs__link {
+    text-decoration: none;
+}
+
+.breadcrubs__item--active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.breadcrubs__item::after{
+    display: inline-block;
+    content: '/';
+    color: #9A9A9A;
+    padding-right: 2px;
+}
+
+.breadcrubs__item:last-child:after {
+    display: none;
+}
+
+.breadcrubs__link {
+    color: #9A9A9A;
+    font-size: 14px;
+}
+
+.page-content {
+    background:  #F2F2F2;
+    color: #303030;
+}
+
+.game {
+    display: flex;
+}
+
+.game__img{
+    width: 30%;
+    margin-right: 7%;
+}    
+
+.game__content {
+    flex: 1;
+}
+
+.game__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 28px;
+    color: #000000;
+}
+
+.game__desc {
+    line-height: 1.7;
+    margin-bottom: 34px;
+}
