@@ -1,6 +1,17 @@
 .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     height: 146px;
     position: relative;
   }
 
-  
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--align--right {
+  display: flex;
+  align-items: flex-end;
+}

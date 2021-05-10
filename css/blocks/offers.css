@@ -2,6 +2,11 @@
     margin-bottom: 122px;
 }
 
+.offers__list {
+    display: flex;
+    justify-content: space-between;    
+}
+
 .title--fire {
    font-size: 36px; 
    font-weight: bold;
@@ -12,14 +17,8 @@
     min-height: 449px;
     background: #fff;
     border-radius: 5px;
-    display: inline-block;
-    margin-right: 22px;
-    width: 361px;
+    width: calc(100% / 3 - 14px);
     overflow: hidden;
-}
-
-.offers__item:last-child {
-    margin-right: 0;
 }
 
 .offers__header {
@@ -29,6 +28,7 @@
 .offers__content {
     padding: 33px 22px;
     color: #303030;
+    flex: 1;
 }
 
 .offers__title {
@@ -39,9 +39,8 @@
 
 .offers__features {
     display: flex;
-    vertical-align: top;
-    display: inline-block;
-    margin-right: 32px;
+    justify-content: space-between;
+    margin-right: 30px;
 }
 
 .offers__features:last-child {

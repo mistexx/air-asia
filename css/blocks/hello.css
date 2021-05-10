@@ -3,7 +3,7 @@
 }
 
 .hello__text--section {
-    width: 637px;
+    width: 55%;;
 }
 
 .hello__title {
@@ -16,4 +16,11 @@
 .hello__text {
     font-size: 21px;
     margin-bottom: 75px;
+}
+
+.hello__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 208px;
 }

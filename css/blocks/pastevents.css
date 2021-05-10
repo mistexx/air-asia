@@ -5,12 +5,14 @@
 }
 
 .pastevents__list {
-  margin-bottom: 53px;  
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 53px;  
 }
 
 .pastevents__items {
     width: 562px;
-    display: inline-block;
+    flex: 1;
     vertical-align: top;
     position: relative;
     border-radius: 4px;

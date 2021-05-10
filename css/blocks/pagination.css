@@ -1,11 +1,13 @@
 .pagination {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 136px;
 }
 
-.pagination__info, .pagination__list {
-    display: inline-block;
-    vertical-align: middle;
+.pagination__list {
+    display: flex;
+    align-items: center;
 }
 
 .pagination__info {
@@ -13,8 +15,7 @@
 }
 
 .pagination__item {
-    display: inline-block;
-    vertical-align: middle;
+    text-align: center;
 }
 
 .pagination__item--active {

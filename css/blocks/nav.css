@@ -1,9 +1,3 @@
-.menu{
-    position: absolute;
-    top: 35px;
-    left: 421px;
-}
-
 .menu__item {
     display: inline-block;
     vertical-align: middle;
@@ -17,9 +11,3 @@
 .menu__link:hover {
     color: #8F00FF;
 }
-
-.menu__footer {
-    position: absolute;
-    top: 57px;
-    left: 289px;
- }
