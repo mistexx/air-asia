@@ -39,3 +39,15 @@ button{
     border-radius: 5px;
     border: 1px solid #fff;
 }
+
+.button--game {
+    background: #F2F2F2;
+    color: #8F00FF;
+    border: 1px solid #8F00FF;
+    margin-bottom: 15px;
+}
+
+.button--game:hover {
+    background: #8F00FF;
+    color: #F2F2F2;
+}

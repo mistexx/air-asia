@@ -2,8 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 146px;
-    position: relative;
   }
 
 .footer__col {
@@ -14,4 +12,19 @@
 .footer__col--align--right {
   display: flex;
   align-items: flex-end;
+}
+
+.container--footer {
+  display: flex; 
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.footer-container__section {
+  height: 146px;
+}
+
+.footer__col--inner {
+  display: flex;
+  align-items: center;
 }
