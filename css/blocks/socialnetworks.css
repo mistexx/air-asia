@@ -19,7 +19,7 @@
 .socialnetworks {
     display: flex;
     padding-right: 79px;
-    padding-bottom: 6px;
+    padding-bottom: 10px;
 }
 
 .socialnetworks__items--tg .socialnetworks__link {
