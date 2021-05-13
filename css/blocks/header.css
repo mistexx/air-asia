@@ -3,15 +3,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 22px;
 }
 
 .header__col {
     display: flex;
     align-items: center;
-    padding-top: 18px;
 }
 
 .header__col--align--right {
     justify-content: flex-end;
-    padding-top: 27px;
 }

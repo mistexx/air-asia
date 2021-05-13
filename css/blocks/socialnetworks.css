@@ -7,7 +7,7 @@
 }
 
 .socialnetworks__items {
-    display: inline-block;
+    display: flex;
     vertical-align: middle;
     margin-right: 10px;
 }
@@ -17,9 +17,9 @@
 }
 
 .socialnetworks {
-    position: absolute;
-    top: 49px;
-    right: 258px;
+    display: flex;
+    padding-right: 79px;
+    padding-bottom: 6px;
 }
 
 .socialnetworks__items--tg .socialnetworks__link {
