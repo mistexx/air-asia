@@ -20,11 +20,23 @@
 /* games page*/
 
 .top-line {
+    position:relative;
     min-height: 410px;
     display: flex;
     flex-direction: column;
     padding-bottom: 19px;
+}
+
+section.top-line::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background: url(../img/back1.png) top 55% center / cover no-repeat;
+    display: block;
+    filter: grayscale(1);
 }
 
 .top-line__container {
@@ -34,10 +46,16 @@
     justify-content: space-between;
 }
 
+.top-line__info {
+    display: flex;
+    flex-direction: column;
+}
+
 .page-title {
     font-size: 72px;
     line-height: 1;
     font-weight: bold;
+    padding-bottom: 115px;
 }
 
 .breadcrubs__list {
@@ -87,12 +105,12 @@
     padding-bottom: 91px;
 }
 
-.game {
-    padding-top: 32px;
+.games {
+    padding-top: 40px;
     padding-bottom: 20px;
 }
 
-.game__item {
+.game {
     display: flex;
     padding-bottom: 50px;
 }
@@ -100,17 +118,19 @@
 .game__img{
     width: 40%;
     margin-right: 5%;
+    overflow:hidden;
+    border-radius: 4px;
 }    
 
 .game__img-elem {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 4px;
 }
 
 .game__content {
     flex: 1;
+    margin-bottom: 15px;
 }
 
 .game__title {
@@ -162,6 +182,10 @@
 
 .partners__item:nth-child( 4n + 1 ) {
     margin-left: 0;
+}
+
+.partners__item:nth-child( 4n + 1 ) .partners__link {
+    justify-content: flex-start;
 }
 
 .inner-footer__container {
