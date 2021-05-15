@@ -55,7 +55,7 @@ section.top-line::before {
     font-size: 72px;
     line-height: 1;
     font-weight: bold;
-    padding-bottom: 115px;
+    margin-bottom: 115px;
 }
 
 .breadcrubs__list {
@@ -112,7 +112,7 @@ section.top-line::before {
 
 .game {
     display: flex;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .game__img{
@@ -159,7 +159,7 @@ section.top-line::before {
 .inner-section__title {
     font-size: 48px;
     font-weight: bold;
-    padding-bottom: 55px;
+    margin-bottom: 55px;
 }
 
 .partners {
