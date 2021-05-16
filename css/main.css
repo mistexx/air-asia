@@ -192,3 +192,123 @@ section.top-line::before {
     padding-top: 41px;
     margin-bottom: 23px;
 }
+
+/* reviews page*/
+
+.reviews{
+    margin-bottom: 93px;
+}
+.reviewspage-content {
+    background: #F2F2F2;
+    color: #818181;
+    margin-bottom: 92px;
+}
+
+.reviews__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 76px;
+    margin-top: 85px;
+}
+
+.reviews__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #F4F5F5;
+    width: 544px;
+    min-height: 542px;
+    border-radius: 5px;
+    margin-right: 27px;
+    padding: 50px 28px;
+    margin-bottom: 17px;
+}
+
+.reviews__userphoto {
+    width: 142px;
+    height: 142px;
+    margin-right: 22px;
+}
+
+.reviews__item-head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.reviews__user {
+    display: flex;
+    color: #1A1B1E;
+    font-size: 24px;
+    line-height: 42px;
+    font-weight: bold;
+    align-items: center;
+    
+}
+
+.reviews__user:hover{
+    text-decoration: underline;
+    color: #2E77A4;
+}
+
+.reviews__user::after {
+    content: url("/img/reviews/vk-blue\ 1.png");
+    align-items: center;
+    margin-left: 9px;
+}
+
+.reviews__game {
+    display: inline-flex;
+    font-size: 13px;
+    line-height: 17px;
+    padding: 10px 20px;
+    border-radius: 35px;
+    background: #B9EAE4;
+    color: #303030;
+}
+
+.reviews__title {
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: bold;
+    color: #1A1B1E;
+    margin-bottom: 13px;
+}
+
+.reviews__desc {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-size: 16px;
+    line-height: 27px;
+     
+}
+
+.reviews__desc-text{
+    display: flex;
+    margin-bottom: auto;
+}
+
+
+.reviews__date {
+    color: #1A1B1E;
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: bold;
+}
+
+.banner {
+    background: #17191C url("../../img/reviews/podberemigry.png") right 360px bottom no-repeat;
+    height: 363px;
+    display: flex;
+    align-items: center;
+}
+
+.banner__title {
+    color: #FFFFFF;
+    font-weight: bold;
+    max-width: 40%;  
+    font-size: 48px;
+    line-height: 63px;
+}
