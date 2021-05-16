@@ -253,7 +253,7 @@ section.top-line::before {
 }
 
 .reviews__user::after {
-    content: url("/img/reviews/vk-blue\ 1.png");
+    content: url("../img/reviews/vk-blue\ 1.png");
     align-items: center;
     margin-left: 9px;
 }
@@ -299,7 +299,7 @@ section.top-line::before {
 }
 
 .banner {
-    background: #17191C url("../../img/reviews/podberemigry.png") right 360px bottom no-repeat;
+    background: #17191C url("../img/reviews/podberemigry.png") right 360px bottom no-repeat;
     height: 363px;
     display: flex;
     align-items: center;
