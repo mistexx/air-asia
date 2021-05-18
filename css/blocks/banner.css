@@ -1,0 +1,14 @@
+.banner {
+    background: #17191C url("../../img/reviews/podberemigry.png") right 310px bottom no-repeat;
+    height: 363px;
+    display: flex;
+    align-items: center;
+}
+
+.banner__title {
+    color: #FFFFFF;
+    font-weight: bold;
+    max-width: 40%;  
+    font-size: 48px;
+    line-height: 63px;
+}

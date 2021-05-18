@@ -1,0 +1,47 @@
+.page-content {
+    background:  #F2F2F2;
+    color: #303030;
+    padding: 40px 0;
+    padding-bottom: 91px;
+}
+
+.games {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.game {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.game__img{
+    width: 40%;
+    margin-right: 5%;
+    overflow:hidden;
+    border-radius: 4px;
+}    
+
+.game__img-elem {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.game__content {
+    flex: 1;
+    margin-bottom: 15px;
+}
+
+.game__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 28px;
+    color: #000000;
+    padding-top: 9px;
+}
+
+.game__desc {
+    line-height: 1.7;
+    margin-bottom: 34px;
+}
