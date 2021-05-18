@@ -50,3 +50,15 @@ button{
     background: #8F00FF;
     color: #F2F2F2;
 }
+
+.button--dark {
+    background: #8E8E8E;;
+    color: #FFFFFF;
+    padding: 18px 45px;
+}
+
+.button--dark:hover {
+    background: #2B2B2B;
+    box-shadow: none;
+    padding: 18px 45px;
+}

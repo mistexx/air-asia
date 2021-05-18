@@ -1,0 +1,41 @@
+.dropdown__days, .dropdown__time {
+  font-size: 13px;
+  line-height: 1.6;
+  font-weight: bold;
+  color: #1E1F20;
+}
+
+.contacts__inf_wrap:hover {
+    color: #FFFFFF;
+    cursor: pointer; 
+}
+
+.contacts__inf_wrap:hover .dropdown {
+    left: 0;
+    opacity: 1;
+}
+
+.contacts__inf_wrap {
+    margin-bottom: 20px;
+}
+
+.dropdown {
+    padding: 9px 34px 15px;
+    position: absolute;
+    background: #EDEDED;
+    opacity: 0.8;
+    border-radius: 5px;
+    left: -9999px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.dropdown::after {
+    content: '';
+    position: absolute;
+    border: 15px solid transparent;
+    border-bottom-color: #EDEDED;
+    border-top-width: 0;
+    top: -10px;
+    right: 36px;
+}
