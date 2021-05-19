@@ -6,7 +6,7 @@
     margin-bottom: 85px;
 }
 .reviewspage-content {
-    background: #F2F2F2;
+    background: #ffffff;
     color: #818181;
 }
 
@@ -70,6 +70,8 @@
     border-radius: 35px;
     background: #B9EAE4;
     color: #303030;
+    margin-bottom: 4px;
+    margin-right: 4px;
 }
 
 .reviews__title {

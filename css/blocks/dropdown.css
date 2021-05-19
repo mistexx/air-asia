@@ -8,11 +8,13 @@
 .contacts__inf_wrap:hover {
     color: #FFFFFF;
     cursor: pointer; 
+    position: relative;
 }
 
 .contacts__inf_wrap:hover .dropdown {
-    left: 0;
+    left: initial;
     opacity: 1;
+    right: 0;
 }
 
 .contacts__inf_wrap {
@@ -20,7 +22,7 @@
 }
 
 .dropdown {
-    padding: 9px 34px 15px;
+    padding: 9px 17px 15px;
     position: absolute;
     background: #EDEDED;
     opacity: 0.8;
@@ -28,6 +30,7 @@
     left: -9999px;
     opacity: 0;
     transition: opacity 1s;
+    text-align: left;
 }
 
 .dropdown::after {

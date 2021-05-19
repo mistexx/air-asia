@@ -28,6 +28,7 @@
 
 .socialnetworks__items--tg .socialnetworks__link:hover {
     background-image: url(../../img/socialnetworks/tg-1.png);
+    transition: 1s;
 }
 
 .socialnetworks__items--vk .socialnetworks__link {
@@ -36,6 +37,7 @@
 
 .socialnetworks__items--vk .socialnetworks__link:hover {
    background-image: url(../../img/socialnetworks/vk-1.png);
+   transition: 1s;
 }
 .socialnetworks__items--fb .socialnetworks__link {
    background-image: url(../../img/socialnetworks/fb.png);
@@ -43,6 +45,7 @@
 
 .socialnetworks__items--fb .socialnetworks__link:hover {
    background-image: url(../../img/socialnetworks/fb-1.png);
+   transition: 1s;
 }
 .socialnetworks__items--in .socialnetworks__link {
    background-image: url(../../img/socialnetworks/in.png);
@@ -50,4 +53,5 @@
 
 .socialnetworks__items--in .socialnetworks__link:hover {
    background-image: url(../../img/socialnetworks/in-1.png);
+   transition: 1s;
 }
