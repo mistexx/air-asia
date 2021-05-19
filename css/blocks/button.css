@@ -66,3 +66,7 @@ button{
     padding: 18px 45px;
     transition: 1s;
 }
+
+.button--welcome {
+    padding: 18px 58px;
+}
